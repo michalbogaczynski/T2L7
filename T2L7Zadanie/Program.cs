@@ -65,15 +65,15 @@ namespace T2L7Zadanie
             int age = int.Parse(Console.ReadLine());
             if (age >= 21 && age < 30)
             {
-                Console.WriteLine("Możesz zostać posłem");
+                Console.WriteLine("Możesz zostać posłem oraz premierem");
             }
             else if ( age >= 30 && age < 35)
             {
-                Console.WriteLine("Możesz senatorem");
+                Console.WriteLine("Możesz zostać posłem, premierem oraz senatorem");
             }
             else if(age >= 35)
             {
-                Console.WriteLine("Możesz zostać prezydentem");
+                Console.WriteLine("Możesz zostać posłem, premierem, senatorem oraz prezydentem");
             }
             else
             {
